@@ -1,3 +1,5 @@
+import type * as SocketIOClient from 'socket.io-client';
+
 import {
 	Replicant,
 	ReplicantOptions,

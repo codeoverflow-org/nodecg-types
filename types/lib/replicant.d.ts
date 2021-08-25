@@ -1,4 +1,5 @@
 import {EventEmitter} from 'events';
+import type * as SocketIOClient from 'socket.io-client'
 
 import {Logger} from './logger';
 import {Platform} from './platform';

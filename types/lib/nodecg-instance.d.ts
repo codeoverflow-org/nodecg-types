@@ -1,10 +1,10 @@
 /// <reference lib="dom" />
 /// <reference types="node" />
-/// <reference types="socket.io" />
-/// <reference types="socket.io-client" />
 /// <reference types="soundjs" />
 
 import {RequestHandler, Router, RouterOptions} from 'express';
+import type * as SocketIOClient from 'socket.io-client';
+import type * as SocketIO from 'socket.io';
 
 import {Logger} from './logger';
 import {ReplicantOptions, Replicant} from './replicant';
