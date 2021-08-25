@@ -1,0 +1,19 @@
+name: CI
+
+on: [push, pull_request]
+jobs:
+  test:
+    name: Make sure the typetest bundle compiles
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+
+    - name: Install type dependencies
+      run: npm ci
+
+    - name: Install typetest dependencies
+      run: cd types/typetest && npm ci
+
+    - name: Compile typetest bundle
+      run: cd types/typetest && npm run build
