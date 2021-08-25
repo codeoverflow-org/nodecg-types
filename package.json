@@ -1,0 +1,29 @@
+{
+  "name": "nodecg-types",
+  "version": "1.8.1",
+  "description": "Types from nodecg but without all the baggage and dependencies",
+  "homepage": "https://github.com/codeoverflow-org/nodecg-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeoverflow-org/nodecg-types.git"
+  },
+  "files": [
+    "types",
+    "!types/typetest/**"
+  ],
+  "keywords": [
+    "nodecg",
+    "types"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeoverflow-org/nodecg-types/issues"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.1",
+    "@types/socket.io": "^3.0.2",
+    "@types/socket.io-client": "^3.0.0",
+    "@types/soundjs": "^0.6.28"
+  }
+}
