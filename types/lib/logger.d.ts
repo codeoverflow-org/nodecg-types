@@ -6,9 +6,7 @@ export class Logger {
 	warn(...args: any[]): void;
 	error(...args: any[]): void;
 	replicants(...args: any[]): void;
-	static globalReconfigure(
-		opts: LoggerOptions & {file: {path: string}}
-	): void;
+	static globalReconfigure(opts: LoggerOptions): void;
 }
 
 /**
@@ -25,6 +23,7 @@ export interface LoggerOptions {
 		enabled: boolean;
 		timestamps: boolean;
 		level: LoggerLevel;
+		path: string;
 	};
 }
 
