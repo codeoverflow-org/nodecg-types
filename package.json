@@ -1,6 +1,6 @@
 {
   "name": "nodecg-types",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "description": "Types from nodecg but without all the baggage and dependencies",
   "homepage": "https://github.com/codeoverflow-org/nodecg-types#readme",
   "repository": {
