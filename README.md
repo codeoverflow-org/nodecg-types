@@ -1,5 +1,7 @@
 # nodecg-types
 
+**⚠ This package was only intented for use with NodeCG v1 till official typings for NodeCG v2 are published in a separate package. As v2 has been released this package is practically deprecated. Only updates for eventual minor/fix version upgrades for NodeCG v1 will be ported here. Use the official `@nodecg/types` package from now on for newer projects that use NodeCG v2!**
+
 If you are developing [NodeCG](https://nodecg.dev) bundles in TypeScript you need typings for nodecg.
 
 The [official guide](https://www.nodecg.dev/docs/frameworks/typescript#using-type-definitions) recommends that you import them directly from the local NodeCG installation using relative paths. This can easily break if the install NodeCG version is incorrect or the user has placed your bundle somewhere other than in `nodecgInstall/bundles/yourBundle`. Also your bundle cannot be compiled if you don't have NodeCG installed.
