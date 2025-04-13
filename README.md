@@ -1,6 +1,14 @@
+# :warning: nodecg-io is abandoned
+This project is no longer actively maintained and is archived.
+The domain [nodecg.io](https://codeoverflow-org.github.io/nodecg-io-docs/RELEASE/) is also not available anymore.
+Use this project at your own risk - breaking APIs and security vulnerabilities are expected to happen soon.
+If you wish to continue nodecg-io, please fork it.
+Similar projects may or may not happen in the future [here](https://github.com/sebinside).
+
+
 # nodecg-types
 
-**⚠ This package was only intented for use with NodeCG v1 till official typings for NodeCG v2 are published in a separate package. As v2 has been released this package is practically deprecated. Only updates for eventual minor/fix version upgrades for NodeCG v1 will be ported here. Use the official `@nodecg/types` package from now on for newer projects that use NodeCG v2!**
+**⚠ This package was only intended for use with NodeCG v1 till official typings for NodeCG v2 are published in a separate package. As v2 has been released this package is practically deprecated. Only updates for eventual minor/fix version upgrades for NodeCG v1 will be ported here. Use the official `@nodecg/types` package from now on for newer projects that use NodeCG v2!**
 
 If you are developing [NodeCG](https://nodecg.dev) bundles in TypeScript you need typings for nodecg.
 
